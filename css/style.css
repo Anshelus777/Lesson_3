@@ -1,0 +1,86 @@
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+h1 {
+	color: blue;
+	font-size: 40px;
+}
+
+.menu {
+	margin-left: 75px;
+}
+
+ul.menu__list a {
+	color: salmon;
+	font-size: 20px;
+}
+
+ol.literature a {
+	color: teal;
+	font-size: 20px;
+}
+
+mark {
+	color: crimson;
+}
+
+h2 {
+	color: rgb(129, 82, 190);
+	font-size: 30px;
+}
+
+span {
+	color: darkgreen;
+}
+
+span.text,
+a.link {
+	color: rgb(29, 187, 235);
+	font-size: 20px;
+}
+
+b.autor,
+b.literature {
+	background-color: rgb(148, 35, 35);
+}
+
+div.text span,
+p.text b,
+div.block b {
+	color: rgb(0, 162, 255);
+	font-size: 22px;
+}
+
+div.block p {
+	color: rgb(36, 32, 255);
+}
+
+p {
+	color: rgb(128, 0, 0);
+}
